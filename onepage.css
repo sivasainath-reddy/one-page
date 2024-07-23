@@ -1,0 +1,387 @@
+.nav{
+    justify-content: space-between !important;
+}
+.one{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #3b4a57;
+    font-family:'Courier New', Courier, monospace;
+}
+ul li{
+    margin-top: 20px;
+    padding: 10px;
+    list-style: none;
+    color: #3b4a57 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+select{
+    border: 0;
+    color: #3b4a57
+}
+.get{
+    color: white;
+    background:#2585cf;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text{
+    margin-top: 100px;
+    text-align: center;
+    color: #12436b;
+}
+.text p{
+    color: gray;
+}
+.text h1{
+    margin-top: 250px;
+    font-weight: bold;
+}
+.in{
+    margin-top: 100px;
+    justify-content: space-between;
+}
+#c1{
+    margin-left: 20px;
+    width: 250px;
+    background: white;
+    padding: 20px;
+    color: #12436b;
+}
+#c1 p{
+    color: gray;
+}
+#c1 i{
+    padding: 50px 0px;
+}
+.au{
+    margin-top: 50px;
+    text-align: center;
+    color: #003663;
+}
+#aa{
+    display: flex;
+}
+.num{
+    font-size: 50px;
+    font-weight: bold;
+    color: #2585cf;
+}
+#num{
+    display: flex;
+    background: #edf3f8;
+    padding-left:200px !important;
+    padding: 50px;
+    margin-top: 50px;
+}
+.about{
+    margin-top: 50px;
+}
+.about img{
+    width: 80%;
+    margin-left: 30px;
+}
+.about i{
+    margin-top: 10px;
+}
+.clients{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background:#edf3f8 ;
+    padding: 50px;
+}
+.clients img{
+    width:10%;
+}
+#test{
+    margin-top: 50px;
+    text-align: center;
+}
+#test h4{
+    font-weight: bold;
+    color: #003663;   
+}
+#testpara{
+    background:#edf3f8;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+}
+.testimg{
+    border-radius: 50%;
+    height: 80px;
+    margin-right: 190px;
+    margin-top: -50px;
+    box-shadow:-5px -5px 5px white;
+}
+#testimonials h6{
+    color:#18548d;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+#testimonials{
+    margin-top: 30px;
+}
+#circles {
+    justify-content: center;
+}
+#circles i{
+    margin-left: 5px;
+}
+#services{
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    background: #edf3f8;
+    padding-bottom: 80px;
+}
+#services i{
+    padding: 120px 50px 50px 50px ;
+}
+.card-text{
+    padding-bottom: 50px;
+}
+.card-title{
+    color:#18548d;
+    font-weight: bold;
+}
+#call{
+    padding: 80px 250px;
+    text-align: center;
+    background: #2585cf;
+    color: white
+}
+#call button{
+    color: white;
+    border-color: white;
+    background: #2585cf;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+#port{
+    text-align: center;
+    margin-top: 5%;
+}
+#port h2{
+    font-weight: bold;
+    color: #18548d;
+}
+#port-list{
+    justify-content: center;
+}
+#all{
+    color: #2585cf !important;
+}
+#port img{
+    margin-top: 4%;
+    width: 100%;
+}
+#team{
+    margin-top: 5%;
+    background: #edf3f8;
+    text-align: center;
+    padding-top: 5%;
+}
+#team h2{
+    color:#18548d ;
+    font-weight: bold;
+}
+#t-img{
+    padding: 5%;
+    justify-content: space-between;
+}
+#t-img h5{
+    color: #18548d;
+    font-weight: bold;
+}
+#price h2{
+    color: #18548d;
+}
+#price{
+    padding-top: 5%;
+    text-align: center;
+}
+#pc1{
+    padding: 2%;
+}
+#pc1:hover{
+    background: #2585cf;
+    transform: scale(1.1);
+    color: white ;
+}
+.faq{
+    background: #edf3f8;
+    padding: 5%;
+}
+#faq{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#faq h3{
+    color: #18548d;
+}
+.con{
+    text-align: center;
+    margin-top: 5%;
+}
+.con h3{
+    color: #18548d;
+    font-weight: bold;
+}
+.add i{
+    border: 1px solid #2585cf;
+    padding: 10px;
+    padding-top: 30px;
+    background: #2585cf;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.add h6{
+    color: #18548d;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"]{
+    width: 49.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+input[type="text"]:nth-child(2),textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    height: 200px;
+}
+#btn {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+#btn button{
+    background: #2585cf !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+footer{
+    border-top:3px solid #dbebf9 ;
+    background: #edf3f8;
+    padding-top: 50px;
+}
+#foot1 h3{
+    color: #18548d;
+    padding-bottom: 10px;
+}
+#foot1 i{
+    padding:20px 10px;
+    border: 1px solid #74C0FC;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+footer h6{
+    color: #18548d;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+@media only screen and (min-width:400px) and (max-width:500px){
+    #c1{
+        width: 180px;
+    }
+    .au{
+        margin-top: 190%;
+    }
+    .text{
+        margin-top: -150px;
+    }
+    #aa{
+        display: block;
+    }
+    #num{
+        display: block;
+    }
+    #call{
+        text-align: justify;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:600px){
+    #c1{
+        width: 180px;
+    }
+    .au{
+        margin-top: 140%;
+    }
+    .text{
+        margin-top: -150px;
+    }
+    #aa{
+        display: block;
+    }
+    #num{
+        display: block;
+    }
+    #call{
+        text-align: justify;
+        padding: 20px;
+    }   
+}
+
+@media only screen and (min-width:600px) and (max-width:800px){
+    #c1{
+        width: 180px;
+    }
+    .au{
+        margin-top: 100%;
+    }
+    .text{
+        margin-top: -150px;
+    }
+    #num{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px){
+    #c1{
+        width: 150px;
+    }
+    .au{
+        margin-top: 40%;
+    }
+    .text{
+        margin-top: -150px;
+    }
+    #num{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1250px){
+    #c1{
+        width: 200px;
+    }
+    .au{
+        margin-top: 30%;
+    }
+    #num{
+        justify-content: space-between;
+    }
+}
